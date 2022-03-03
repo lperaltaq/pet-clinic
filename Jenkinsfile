@@ -137,5 +137,6 @@ pipeline {
                 sh 'docker push $PRODUCTION_LATEST'
             }
         }
+        
     }
 }
